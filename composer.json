@@ -33,6 +33,9 @@
     }
   ],
   "require": {
+    "wpackagist-plugin/polylang": "~1.7.8",
+    "wpackagist-plugin/json-rest-api": "~1.2.2",
+    "wpackagist-plugin/wordpress-mu-domain-mapping": "~0.5.4.3",
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
