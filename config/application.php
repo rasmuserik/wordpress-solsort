@@ -2,6 +2,14 @@
 $root_dir = dirname(__DIR__);
 $webroot_dir = $root_dir . '/web';
 
+define('WP_ALLOW_MULTISITE', true);
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false); // Set to false if using subdirectories
+define('DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE'));
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
 /**
  * Use Dotenv to set required environment variables and load .env file in root
  */
